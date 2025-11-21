@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{399d1b57-f479-4208-ba4c-adfd94602ef5}</ProjectGuid>
-    <RootNamespace>Rekenmachine</RootNamespace>
+    <ProjectGuid>{d962df55-ff01-43f2-aa97-22222769c07d}</ProjectGuid>
+    <RootNamespace>CalculatorProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Reken_machine.cpp" />
+    <ClCompile Include="Calculator.cpp" />
+    <ClCompile Include="Calculator_Project.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
