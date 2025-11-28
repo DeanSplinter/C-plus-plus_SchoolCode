@@ -5,7 +5,5 @@
 int main()
 {
 	Calculator calc;
-
-
 }
 

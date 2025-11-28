@@ -7,7 +7,7 @@ Calculator::Calculator()
 
 Calculator::~Calculator()
 {
-
+	//deconstructor is here
 }
 
 void Calculator::Plus(float a, float b)
