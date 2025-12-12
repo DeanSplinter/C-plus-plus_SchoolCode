@@ -9,6 +9,7 @@ public: //Data can be accessed by any class
 	void Update();
 
 private: //Data can only be accessed by this class
+	void AskPlayerName();
 	Player* player;
 };
 

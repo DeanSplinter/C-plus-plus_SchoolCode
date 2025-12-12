@@ -4,16 +4,12 @@
 class Player
 {
 public:
-	Player();
+	Player(std::string aName);
 	~Player();
 
 
 private:
 	float health;
-
-
-protected:
-
-
+	std::string name;
 };
 
