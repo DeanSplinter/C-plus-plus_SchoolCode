@@ -181,7 +181,7 @@ void Game::PossibleAttacks(npc& currentNpc)
 
     switch (attackChoice) {
     case '1':
-        chosen = &slash;
+        chosen = &slash; 
         break;
 
     case '2':
